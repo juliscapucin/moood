@@ -84,7 +84,7 @@ export default function Card({
 
     return (
         <motion.div
-            className='absolute h-full w-full cursor-grab overflow-clip rounded-xl'
+            className='absolute h-full w-full max-w-94 cursor-grab overflow-clip rounded-xl'
             style={{
                 x,
                 rotate,

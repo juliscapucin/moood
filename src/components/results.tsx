@@ -97,7 +97,7 @@ export default function Results({
 
     return (
         <div
-            className={`fixed inset-0 z-30 flex flex-col items-center justify-center gap-4 bg-primary ${
+            className={`fixed inset-0 top-18 z-30 flex flex-col items-center justify-center gap-4 overflow-y-auto bg-primary md:top-0 ${
                 showResults ? 'translate-y-0' : '-translate-y-full'
             } transition-transform duration-500`}
         >
@@ -105,7 +105,7 @@ export default function Results({
 
             {/* FINAL RESULT */}
             {finalResult && (
-                <div className='max-w-prose rounded-3xl bg-secondary p-8'>
+                <div className='mx-4 max-w-96 rounded-3xl bg-secondary p-8'>
                     <h2 className='heading-title'>
                         {finalResult && results[finalResult]
                             ? results[finalResult].name
