@@ -18,10 +18,10 @@ export default function Home() {
 
     return (
         <>
-            <header className='absolute top-4 left-4 z-50 h-10 w-fit md:h-12'>
+            <header className='absolute top-0 right-4 left-4 z-50 h-fit bg-primary py-4'>
                 <button
                     onClick={handleRestart}
-                    className='relative h-full w-[200px] cursor-pointer transition-opacity hover:opacity-80'
+                    className='relative h-8 w-[200px] cursor-pointer transition-opacity hover:opacity-80 md:h-12'
                     aria-label='Restart quiz'
                 >
                     <Image

@@ -97,11 +97,11 @@ export default function Results({
 
     return (
         <div
-            className={`fixed inset-0 z-30 flex flex-col items-center justify-center gap-4 overflow-y-auto bg-primary md:top-0 ${
+            className={`fixed inset-0 z-30 flex flex-col items-center justify-center gap-4 overflow-x-clip overflow-y-auto bg-primary px-4 pt-40 pb-8 ${
                 showResults ? 'translate-y-0' : '-translate-y-full'
             } transition-transform duration-500`}
         >
-            <h1 className='heading-display mt-18'>Results</h1>
+            <h1 className='heading-display md:mt-0'>Results</h1>
 
             {/* FINAL RESULT */}
             {finalResult && (
