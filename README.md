@@ -19,7 +19,6 @@ Moood is a swipe-based mood discovery quiz that presents 10 fun affirmations. Us
 - **Results Sharing** - Share your mood result on Twitter, LinkedIn, Facebook, or via native share
 - **Responsive Design** - Fully responsive UI that works on desktop and mobile devices
 - **Elegant Animations** - Polished transitions and animations throughout the experience
-- **Custom Theming** - Beautiful color palette with Tailwind CSS v4
 
 ## 🚀 Getting Started
 
@@ -142,17 +141,9 @@ For other platforms, build the project with `npm run build` and deploy the `.nex
 
 ## 🎯 Future Enhancements
 
-- [ ] Save mood history
 - [ ] More affirmations and mood types
 - [ ] Keyboard navigation support
-- [ ] Advanced animation options
-- [ ] Multi-language support
-- [ ] Daily mood tracking
 
 ## 📄 License
 
 This project is private and not currently licensed for public use.
-
-## 🙏 Acknowledgments
-
-Built with modern web technologies and a focus on delightful user experiences.
